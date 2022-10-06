@@ -1,1 +1,17 @@
-styles.css
+p {
+    color: #757575;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+img {
+    width: 100%;
+}
+#id{
+
+}
+.class{
+    
+}
