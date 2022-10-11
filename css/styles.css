@@ -1,20 +1,24 @@
 p {
     color: #757575;
-    font-family:"Roboto";
-    font-style: normal;
-    font-weight: 400;
+    font-family: roboto;
+    font-style: regular;
     font-size: 14px;
-
+    line-height: 24px;
+    line-height: 146%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%
 }
 nav{
     color: #212121;
-    Font-family: "Roboto";
-    Font-style: "Medium";
-    Font-size: 14px;
-    Line-height: 16px;
-    Line-height: 100%;
-    Vertical-align: "Top";
-    Letter-spacing: 2%
+    font-family: roboto;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 2%
 }
 a{
     text-decoration: none;
@@ -26,29 +30,35 @@ ul{
 
                       .class{}
 
-.head{
-    font-family: "Raleway";
-    font-style: "Bold";
+
+.logo{
+    color:#2196F3;
+    font-family: raleway;
+    font-style: bold;
     font-size: 26px;
     line-height: 31px;
     line-height: 100%;
-    Vertical-align: "Top";
-    Letter-spacing: 3%;
+    vertical-align: top;
+    letter-spacing: 3%;
+}    
+.head{
+    text-align: right;
 }
 .foot{
-    Font-family: "Raleway";
-    font-style: "Bold";
-    Font-size: 26px;
-    Line-height: 31px;
-    Line-height: 100%;
-    Vertical-align: "Top";
-    Letter-spacing: 3%;
+    text-align: left;
 }
-.logo{
-    color:#2196F3;
+.color{
+    color:#212121;
 }
 .tittle-text{
-    color: #212121;
+    font-family: roboto;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%
 
 }
 .links{
@@ -56,24 +66,77 @@ ul{
 }
 .links:hover{
     color: #2196F3;
-
-
+}
+.contacts{
+    color:#757575;
+    font-family: roboto;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 2%
+}
+.contacts:hover{
+    color: #2196F3
+}
+.tittle-second{
+    font-family: roboto;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 42px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
 }
 .name{
-    color: #212121
+    font-family: roboto;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
+}
+.job{
+    font-family: roboto;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
 }
 
                      #id{}
 
 #tittle{
     color: #FFFFFF;
-    Font-family: "Roboto";
-    Font-style: "Black";
-    Font-size: 44px;
-    Line-height: 60px;
-    Line-height: 116%;
-    Align: "Center";
-    Vertical-align: "Top";
-    Letter-spacing: 6%;
+    font-family: roboto;
+    font-style:black;
+    font-size: 44px;
+    line-height: 60px;
+    line-height: 160%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 6%;
 
+}
+#button{
+    
+}
+.location{
+    color:#FFFFFF;
+    font-family: roboto;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
 }
