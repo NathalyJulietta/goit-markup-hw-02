@@ -41,6 +41,9 @@ ul {
 }
 
 .button {
+    cursor: pointer;
+}
+.button-principal{
     color: #FFFFFF;
     background-color: #2196F3;
     width: 197px;
@@ -49,16 +52,11 @@ ul {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
-    cursor: pointer;
 }
-
 .button-folio:hover {
     color: #FFFFFF;
     background-color: #2196F3;
-    cursor: pointer;
-
 }
-
 .foot {
     text-align: left;
 }
