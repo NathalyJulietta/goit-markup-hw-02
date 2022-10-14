@@ -1,24 +1,31 @@
+:root{
+    --brand-color:#2196F3;
+    --text-color: #212121;
+    --second-color: #ffffff;
+    --third-color: #757575; 
+    --bg-color: #2F303A;
+    --color-team:  #F5F4FA;
+}
 a {
     text-decoration: none;
 }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #212121;
+    color: var(--text-color);
 }
 
 nav {
-    color: #212121;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     text-align: left;
     vertical-align: top;
-    letter-spacing: 2%
+    letter-spacing: 2%;
 }
 
 p {
-    color: #757575;
+    color: var(--third-color);
     font-size: 14px;
     line-height: 24px;
     text-align: left;
@@ -30,12 +37,16 @@ ul {
     list-style: none;
 }
 
+.bg{
+    background-color: var(--bg-color);
+}
+
 .buttons {
     cursor: pointer;
 }
 .button-principal{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--second-color);
+    background-color: var(--brand-color);
     width: 197px;
     height: 30px;
     font-weight: 700;
@@ -44,19 +55,15 @@ ul {
     letter-spacing: 0.06em;
 }
 .button-folio:hover {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--second-color);
+    background-color: var(--brand-color);
 }
 .foot {
     text-align: left;
 }
 
 .foot-bg {
-    position: absolute;
-    width: 100%;
-    height: 252px;
-    left: 0px;
-    background: #2F303A;
+    background-color: var(--bg-color);
 }
 
 .head {
@@ -64,7 +71,7 @@ ul {
 }
 
 .info {
-    color: #757575;
+    color: var(--third-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -74,19 +81,19 @@ ul {
 }
 
 .info:hover {
-    color: #2196F3
+    color: var(--brand-color)
 }
 
 .links {
-    color: #212121;
+    color: var(--text-color);
 }
 
 .links:hover {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .location {
-    color: #FFFFFF;
+    color: var(--second-color);
     font-size: 14px;
     line-height: 24px;
     text-align: left;
@@ -94,10 +101,10 @@ ul {
     letter-spacing: 3%;
 }
 .location:hover{
-    color:#2196F3
+    color: var(--brand-color);
 }
 .logo {
-    color: #2196F3;
+    color: var(--brand-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -106,6 +113,7 @@ ul {
 }
 
 .name {
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -115,6 +123,7 @@ ul {
 }
 
 .subtittle-text {
+    color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -124,6 +133,7 @@ ul {
 }
 
 .tittle-2 {
+    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -141,7 +151,7 @@ ul {
 }
 
 #tittle {
-    color: #ffffff;
+    color: var(--second-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
@@ -150,6 +160,6 @@ ul {
 }
 
 #team-color {
-    background-color: #F5F4FA;
+    background-color: var(--color-team);
 
 }
